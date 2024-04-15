@@ -1,0 +1,50 @@
+html, body {
+    height: 100%; /* Sets the height of the html and body to fill the screen */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column; /* Stacks the body content in a vertical column */
+}
+
+main {
+    flex: 1; /* Allows the main content to expand and fill the available space */
+    padding: 20px; /* Adds padding inside the main tag */
+}
+
+footer {
+    background-color: #add8e6; /* Light blue color */
+    color: black; /* Sets footer text color to white */
+    text-align: center;
+    padding: 10px 0;
+    border-top: 2px solid #000; /* Adds a border to the top of the footer for distinction */
+    width: 100%; /* Ensures the footer stretches across the entire width of the viewport */
+}
+
+header {
+    background-color: #8fbc8f; /* Light green color */
+    color: black; /* Sets header text color to white */
+    padding: 10px 20px;
+    width: 100%; /* Makes the header span the full width of the viewport */
+}
+
+nav {
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: black; /* Ensures navigation links are white */
+    text-decoration: none;
+    font-weight: bold;
+}
